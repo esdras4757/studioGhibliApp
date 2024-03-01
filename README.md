@@ -1,10 +1,6 @@
 # Prueba tecnica - studioGhibliApp 
 
-# Prueba Técnica - Proyecto Nombre
-
-Descripción breve del proyecto.
-
-# Prueba esta aplicacion accediendo al siguiente link https://studio-ghibli-app-ten.vercel.app/
+## Prueba esta aplicacion accediendo al siguiente link https://studio-ghibli-app-ten.vercel.app
 
 ## Instrucciones de Instalación
 
