@@ -110,8 +110,7 @@ const Filters = (props: FiltersProps) => {
                       onChange={(e) => {
                         const searchText = e.target.value.toLocaleLowerCase().replace(/\s/g, ''); 
                         const matchingOptions = catalog.filter((el) => el.text.toLocaleLowerCase().replace(/\s/g, '').includes(searchText));
-                        const id:any = matchingOptions.map((el) => el.id);                        
-                        console.log(id);
+                        const id:any = matchingOptions.map((el) => el.id); 
                         if (id && id.length > 0) {
                           updateFilters(element?.id || '', e.target.value, id[0]);
                           return;
@@ -122,10 +121,8 @@ const Filters = (props: FiltersProps) => {
                         if (e.key === 'Enter') {
                           const searchText = e.target.value.toLocaleLowerCase().replace(/\s/g, ''); 
                           const matchingOptions = catalog.filter((el) => el.text.toLocaleLowerCase().replace(/\s/g, '').includes(searchText));
-                          const id:any = matchingOptions.map((el) => el.id);                        
-                          console.log(id);
+                          const id:any = matchingOptions.map((el) => el.id);      
                           if (id && id.length > 0) {
-                            console.log(id[0]);
                             const filtersUpdated=updateFilters(element?.id || '', e.target.value, id[0]);
                             getAllMoviesFn(filtersUpdated);
                             return;

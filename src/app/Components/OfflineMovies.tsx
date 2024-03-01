@@ -19,7 +19,6 @@ const OfflineMovies = (props:OfflineProps) => {
   const [errorData, setErrorData] = useState(false);
 
   useEffect(() => {
-    console.log('asioehfouahsefs')
     getAllMoviesFn();
   }, [dataParent]);
 

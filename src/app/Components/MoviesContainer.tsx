@@ -37,7 +37,6 @@ const MoviesContainer = (props: mainProps) => {
     const state = useSelector((state:appState)=>state.utils.update)
 
     useEffect(() => {
-        console.log(state)
             getAllMoviesFn();
     }, [state]);
 

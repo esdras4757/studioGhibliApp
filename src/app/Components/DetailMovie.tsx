@@ -72,12 +72,9 @@ const DetailMovie = (props: PropsInterface) => {
                     const response = await useApi(url, 'get', {});
                     return <div key={index} className='mb-2 text-start'><i className='fas me-1 fa-user' />{response.data.name}</div>;
                 } catch (error) {
-                    console.error(error);
                     return <div key={index}>Error</div>;
                 }
             }));
-
-            console.log(allLocations);
             setLocationsList(allLocations);
         } finally {
             setLoading(false);
@@ -92,12 +89,9 @@ const DetailMovie = (props: PropsInterface) => {
                     const response = await useApi(url, 'get', {});
                     return <div key={index} className='mb-2 text-start'><i className='fas me-1 fa-user' />{response.data.name}</div>;
                 } catch (error) {
-                    console.error(error);
                     return <div key={index}>Error</div>;
                 }
             }));
-
-            console.log(allPeople);
             setPeopleList(allPeople);
         } finally {
             setLoading(false);
