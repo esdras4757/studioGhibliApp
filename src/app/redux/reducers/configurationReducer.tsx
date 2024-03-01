@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { configurationState, configurationActionTypes} from "../types";
+import { configurationActionTypes} from "../types";
 
 
 

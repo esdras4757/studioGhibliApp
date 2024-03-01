@@ -6,7 +6,6 @@ return{
 }
 }
 
-
 export function updateData(value:boolean){
 return{
     type:'update',

@@ -1,4 +1,3 @@
- // reducers/utilsReducer.js
 import { changeIsLoading } from "../actions/appActions";
 import { utilsState } from "../types";
 

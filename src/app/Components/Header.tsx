@@ -1,9 +1,7 @@
 import { BottomNavigation, BottomNavigationAction, Box, Button, Switch, useTheme } from '@mui/material'
 import React, { Dispatch, SetStateAction } from 'react'
 import { useDispatch } from 'react-redux'
-import { changeTheme } from '../redux/types'
 import { isNil } from 'lodash'
-import localforage from 'localforage'
 type mainProps = {
   offlineMode?: boolean
   setOfflineMode?: Dispatch<SetStateAction<boolean>>

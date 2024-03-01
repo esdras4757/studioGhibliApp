@@ -2,13 +2,8 @@
 import { Provider, useDispatch, useSelector } from 'react-redux';
 import store from './redux/store/store';
 import { appState } from './redux/types';
-import { lime } from '@mui/material/colors';
-import AlertComponent from './Components/Alert';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import styled from 'styled-components'
-import styles from '../styles/Home.module.scss'
-import { useEffect } from 'react';
 import { LinearProgress } from '@mui/material';
 
 

@@ -1,5 +1,4 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from 'react';
-import { Fab, Drawer, TextField, Chip } from '@mui/material';
 import Movie from './Movie';
 import Filters from './Filters';
 import { useApi } from '@/customHooks/useApi';
@@ -9,7 +8,6 @@ import ErrorPlaceHolder from '../placeholders/ErrorPlaceHolder';
 import NoDataPlaceholder from '../placeholders/NoDataPlaceholder';
 import { isArray, isEmpty, isNil, isObject } from 'lodash';
 import { movieInterface } from '../Types/appTypes';
-import type { GetProp, UploadProps } from 'antd';
 import OfflineMovies from './OfflineMovies';
 import Loader from '../placeholders/Loader';
 import { useSelector } from 'react-redux';
