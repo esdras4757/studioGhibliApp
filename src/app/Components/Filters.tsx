@@ -31,7 +31,7 @@ const Filters = (props: FiltersProps) => {
             conditions: {
               value: '',
               name: element.id,
-              id: '',
+              id: element.id,
             },
           };
         }
@@ -89,7 +89,6 @@ const Filters = (props: FiltersProps) => {
                 className='col-11'
                   disablePortal
                   id="combo-box-"
-                  freeSolo={true}
                   onChange={async(event: React.SyntheticEvent<Element, Event>, newValue: any | null) => {
                     if (newValue) {
                       const filtersUpdated= await updateFilters(element?.id || '', newValue.text, newValue.id);
