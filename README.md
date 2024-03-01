@@ -1,0 +1,2 @@
+# studioGhibliApp
+Prueba tecnica - studioGhibliApp 
