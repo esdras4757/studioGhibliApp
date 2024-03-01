@@ -31,7 +31,7 @@ const Filters = (props: FiltersProps) => {
             conditions: {
               value: '',
               name: element.id,
-              id: element.id,
+              id: '',
             },
           };
         }
