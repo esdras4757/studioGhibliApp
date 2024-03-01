@@ -32,12 +32,12 @@ npm run build
 npm start
 ```
 
-6. Abrir la Aplicación en el Navegador
+### 4. Abrir la Aplicación en el Navegador
 Visita http://localhost:3000 en tu navegador para acceder a la aplicación.
 
 /////////////////////////////////
 
-### Puntos a considerar y como mejoraria este proyecto
+## Puntos a considerar y como mejoraria este proyecto
 
 Exploración Avanzada: Implementar opciones avanzadas para ordenar y filtrar películas, brindando más control a los usuarios.
 Interacción Social: Agregar funciones como guardar películas favoritas y compartir comentarios para una experiencia más social.
